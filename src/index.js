@@ -52,7 +52,7 @@ function App() {
     <div className="container">
       <Header />
 
-      {pizzaData.length > 0 && <Menu />}
+      {pizzaData.length > 0 ? <Menu /> : <p>we're working on our menu</p>}
       <Footer />
     </div>
   );
@@ -104,13 +104,14 @@ function Footer() {
 
   return (
     <footer className="footer">
-      {isOpen && (
+      {isOpen ? (
         <div className="order">
           <p>We'r open until {closeHour}:00. come visit us!</p>
           <button className="btn">order now</button>
         </div>
+      ) : (
+        <div>we are currently closed</div>
       )}
-      {!isOpen && <div>we are currently closed</div>}
     </footer>
   );
 }
