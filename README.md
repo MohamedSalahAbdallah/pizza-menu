@@ -45,7 +45,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Mohamed Bakr - m.salahbakr2000@gmail.com
 
-Project Link: (https://github.com/MohamedSalahAbdallah/pizza-menu)
+Project Link: (https://github.com/MohamedSalahAbdallah/pizza-menu) 
+Preview Link: (https://amazing-marshmallow-341ff9.netlify.app)
+
+
 
 ## Acknowledgements
 
