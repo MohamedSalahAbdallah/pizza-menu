@@ -52,7 +52,17 @@ function App() {
     <div className="container">
       <Header />
 
-      {pizzaData.length > 0 ? <Menu /> : <p>we're working on our menu</p>}
+      {pizzaData.length > 0 ? (
+        <>
+          <Menu />
+          <p>
+            Authentic Italian cuisine. 6 creative dishes to choose from. All
+            from our stone oven, all organic, all delicious.
+          </p>
+        </>
+      ) : (
+        <p>we're working on our menu</p>
+      )}
       <Footer />
     </div>
   );
